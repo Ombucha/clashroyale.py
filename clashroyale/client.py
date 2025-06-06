@@ -383,9 +383,8 @@ class Client:
         if season_id:
             data = _fetch(f"{BASE_URL}locations/global/pathoflegend/{season_id}/rankings/players", self, {"before": before, "after": after, "limit": limit})
             return [ClashRoyaleObject(item) for item in data["items"]]
-        else:
-            data = _fetch(f"{BASE_URL}locations/{location_id}/pathoflegend/players", self, {"before": before, "after": after, "limit": limit})
-            return [ClashRoyaleObject(item) for item in data["items"]]
+        data = _fetch(f"{BASE_URL}locations/{location_id}/pathoflegend/players", self, {"before": before, "after": after, "limit": limit})
+        return [ClashRoyaleObject(item) for item in data["items"]]
 
     def get_season(self, season_id: str) -> ClashRoyaleObject:
         """
