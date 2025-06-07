@@ -210,7 +210,7 @@ class ChallengeList:
             yield self[index]
 
     def __len__(self) -> int:
-        return len(self._data["items"])
+        return len(self._data)
 
     def __eq__(self, __o: object) -> bool:
         return list(self) == list(__o)
