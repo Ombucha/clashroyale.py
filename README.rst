@@ -3,15 +3,14 @@
 .. image:: https://img.shields.io/pypi/v/clashroyale.py
     :target: https://pypi.python.org/pypi/clashroyale.py
     :alt: PyPI version
-.. image:: https://img.shields.io/pypi/dm/clashroyale.py
+.. image:: https://static.pepy.tech/personalized-badge/clashroyale.py?period=total&left_text=downloads&left_color=grey&right_color=red
     :target: https://pypi.python.org/pypi/clashroyale.py
     :alt: PyPI downloads
-.. image:: https://sloc.xyz/github/Ombucha/clashroyale.py
+.. image:: https://sloc.xyz/github/Ombucha/clashroyale.py?lower=True
     :target: https://github.com/Ombucha/clashroyale.py/graphs/contributors
     :alt: Lines of code
-.. image:: https://img.shields.io/github/repo-size/Ombucha/clashroyale.py
+.. image:: https://img.shields.io/github/repo-size/Ombucha/clashroyale.py?color=yellow
     :target: https://github.com/Ombucha/clashroyale.py
-    :alt: Repository size
 
 A modern, easy-to-use, and feature-rich Python wrapper for the Clash Royale API.
 
