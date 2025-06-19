@@ -11,6 +11,7 @@
     :alt: Lines of code
 .. image:: https://img.shields.io/github/repo-size/Ombucha/clashroyale.py?color=yellow
     :target: https://github.com/Ombucha/clashroyale.py
+    :alt: Repository size
 
 A modern, easy-to-use, and feature-rich Python wrapper for the Clash Royale API.
 
